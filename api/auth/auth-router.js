@@ -45,7 +45,7 @@ router.post('/register',validatePayload,usernameTaken, async (req, res,next) => 
 });
 
 router.post('/login',usernameExists, async (req, res,next) => {
-  res.end('implement login, please!');
+  // res.end('implement login, please!');
   /*
     IMPLEMENT
     You are welcome to build additional middlewares to help with the endpoint's functionality.
